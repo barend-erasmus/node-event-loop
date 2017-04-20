@@ -2,10 +2,9 @@
 
 In this document we'll cover:
 
-1. The Event Loop
-    1. What is the Event Loop?
-    1. What is single threaded?
-    2. Thread Pool
+1. What is the Event Loop?
+2. What is single threaded?
+3. Thread Pool
 
 ## What is the Event Loop?
 
@@ -58,7 +57,7 @@ Handling a web request
 
 In the example above, no requests will be processed while data is being retrieve or written to the database. Node is single threaded and can only perform **ONE** action at a time. 
 
-This will reduce the number of request that your apllication can handle per second.
+This will reduce the number of request that your application can handle per second.
 
 ### Thread Pool
 
